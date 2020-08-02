@@ -1,0 +1,31 @@
+{
+  "name": "authentication-server",
+  "version": "1.0.0",
+  "description": "authentication server based oAuth",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajmal-ahmed/authentication-server-basic.git"
+  },
+  "keywords": [
+    "OAuth"
+  ],
+  "author": "Ajmal Ahamed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajmal-ahmed/authentication-server-basic/issues"
+  },
+  "homepage": "https://github.com/ajmal-ahmed/authentication-server-basic#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.27",
+    "pbkdf2": "^3.1.1",
+    "uuid": "^8.3.0",
+    "validator": "^13.1.1"
+  }
+}
