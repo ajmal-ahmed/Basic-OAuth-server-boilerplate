@@ -1,6 +1,6 @@
 const axios = require("axios");
 
-const sso_url = process.env.SSOURL || "http://localhost:4001"; //Authentcation server url
+const sso_url = process.env.SSOURL || "http://localhost:3002"; //Authentcation server url
 const client_id = process.env.CID || "CID"; //client Id obtained from Authentcation server
 const client_secret = process.env.CSECRET || "CSECRET"; //client Secret obtained from Authentcation server
 
