@@ -1,27 +1,21 @@
-# Node.Js-Exercise-1
+# Basic OAuth server boilerplate
 
-SSO OAuth based server architecture
+OAuth based server architecture
 
-# Documentation
+![Architecture](https://github.com/ajmal-ahmed/Basic-OAuth-server-boilerplate/blob/master/images/authflow.PNG)
 
-https://docs.google.com/document/d/1xfWBAOMMzR11eRwr3_A-C-3ZOgzfgdTNj35pKVyer6c/edit?usp=sharing
 
 # Installation Steps
 
--Install all three servers(run `npm install` inside all three folders )
 
--Run Authentication Server (`node index.js` inside 'authentication-server-basic' folder )
+1. Install all three servers
+2. Run Authentication Server
+3. Register and obtain client credentials(clientId &amp; clientSecret) from Authentication Server.
+4. Set environment variables CID(clientId) &amp; CSECRET(clientSecret) for client server.
+5. Run Client Server
+6. Create user via sign-up API path
+7. Obtain access\_token via sign-in API path
+8. Use access\_token in header of resource API request(/api/resources/books-available) to retrieve resources (available books) from Resource Server
+# API Documentation
 
--Register and obtain client credentials(clientId & clientSecret) from Authentication Server.
-
--Set environment variables CID(clientId) & CSECRET(clientSecret) for client server.
-
--Run Client Server (`node index.js` inside 'client-server-basic' folder )
-
--Run Resource Server (`node index.js` inside 'resource-server' folder )
-
--Create user via sign-up API path
-
--Obtain access_token via sign-in API path
-
--Use access_token in header of resource API request(/api/resources/books-available) to retrieve resources (available books) from Resource Server
+https://docs.google.com/document/d/1xfWBAOMMzR11eRwr3_A-C-3ZOgzfgdTNj35pKVyer6c/edit?usp=sharing
